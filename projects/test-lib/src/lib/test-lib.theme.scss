@@ -1,0 +1,5 @@
+@import 'test/test.component.theme.scss';
+
+@mixin test-lib-theme($test-app-theme) {
+  @include test-component-theme($test-app-theme);
+}

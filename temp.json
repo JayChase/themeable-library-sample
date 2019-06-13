@@ -1,0 +1,13 @@
+"projects": {
+    "web-app": {
+     ...
+      },
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            ...
+            "stylePreprocessorOptions": {
+              "includePaths": ["projects/shared-styles"]
+            }
+            ...
